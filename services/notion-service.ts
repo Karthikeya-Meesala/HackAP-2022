@@ -45,7 +45,7 @@ export default class NotionService {
             filter: {
                 property: 'Slug',
                 formula: {
-                    text: {
+                    string: {
                         equals: slug // slug
                     }
                 },
