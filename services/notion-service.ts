@@ -11,7 +11,7 @@ export default class NotionService {
         this.n2m = new NotionToMarkdown({ notionClient: this.client });
     }
 
-    async getPublishedBlogPosts(): Promise<BlogPost[]> {
+    async getPublishedProfiles(): Promise<BlogPost[]> {
         const database = process.env.NOTION_BLOG_DATABASE_ID ?? '';
         // list blog posts
         const response = await this.client.databases.query({
@@ -35,7 +35,7 @@ export default class NotionService {
         })
     }
 
-    async getSingleBlogPost(slug: string): Promise<PostPage> {
+    async getSingleProfile(slug: string): Promise<PostPage> {
         let post, markdown
 
         const database = process.env.NOTION_BLOG_DATABASE_ID ?? '';

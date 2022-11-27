@@ -8,7 +8,7 @@ import Header from "../components/Header";
 
 export const getStaticProps: GetStaticProps = async (context) => {
     const notionService = new NotionService();
-    const posts = await notionService.getPublishedBlogPosts()
+    const posts = await notionService.getPublishedProfiles()
 
     return {
         props: {

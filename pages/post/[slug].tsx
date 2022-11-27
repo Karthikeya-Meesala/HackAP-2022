@@ -26,6 +26,7 @@ const Post = ({markdown, post}: InferGetStaticPropsType<typeof getStaticProps>) 
                         <Link className=" underline text-blue-600 font-semibold text-l" href="/#">Go back</Link>
                             <ReactMarkdown>{markdown}</ReactMarkdown>
                         </article>
+                        <button> </button>
                     </div>
                 </main>
             </div>
@@ -42,7 +43,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     const notionService = new NotionService()
 
     // @ts-ignore
-    const p = await notionService.getSingleBlogPost(context.params?.slug)
+    const p = await notionService.getSingleProfile(context.params?.slug)
 
     if (!p) {
         throw ''
@@ -59,7 +60,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 export async function getStaticPaths() {
     const notionService = new NotionService()
 
-    const posts = await notionService.getPublishedBlogPosts()
+    const posts = await notionService.getPublishedProfiles()
 
     // Because we are generating static paths, you will have to redeploy your site whenever
     // you make a change in Notion.
