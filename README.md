@@ -1,10 +1,16 @@
-## HACKAP 2022 - Project - Employee Directory Platform
+# HackAP 2022 - Employee Directory
 
-#Hackathon Presentation [link](https://docs.google.com/presentation/d/1Xl8vn9_uChiv1Umvqjj2p-G01bSD0ooFFa30NsCiFb4/edit#slide=id.g19a57639667_0_19).
+**HackAP 2022** is hosted by Andhra University's incubation centre. Under the employee engagement theme, I've built a web platform where you can create employees' profiles and add their work history on the platform which is made publicly available.
 
-#Demo [link](https://hackap-2022.vercel.app/#)
+**Tech Stack:** Nextjs, Typescript, TailwindCSS, Notion API
 
+# Links
 
+ **1. Hosted on Vercel - Demo [Link](https://hackap-2022.vercel.app/#)**
+ 
+**2. Hackathon Presentation [Link](https://docs.google.com/presentation/d/1Xl8vn9_uChiv1Umvqjj2p-G01bSD0ooFFa30NsCiFb4/edit#slide=id.g19a57639667_0_19)**
+
+****
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
