@@ -12,8 +12,8 @@ dayjs.extend(localizedFormat)
 const BlogCard: FunctionComponent<BlogCardProps> = ({post}) => {
 
     return (
-        <Link href={`/post/${post.slug}`} legacyBehavior>
-            <a className="transition duration-300 hover:scale-105  ">
+        <Link href={`/post/${post.slug}`} legacyBehavior className="">
+            <a className="transition duration-300 hover:scale-105 px-12 lg:px-0">
                 <div key={post.title} className="flex flex-col rounded-xl border-1 border-blue-50 shadow-lg overflow-hidden">
                     <div className="flex-shrink-0">
                         <img className="h-64 w-full object-fit" src={post.cover} alt="" />
