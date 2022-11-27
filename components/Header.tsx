@@ -11,8 +11,8 @@ const Header = () => {
         </a>
         <div className="flex md:order-2">
 
-            <div className='grid grid-rows-2'> 
-            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> <Link legacyBehavior href={'https://www.notion.so/6e345d3e2be648559efcdd8582172165?v=123cd9db01c84a73b058857d93a90b8c'}> Add employees </Link></button>
+            <div className='grid grid-rows-2 pt-8 items-center'> 
+            <button type="button" className="text-white self-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> <Link legacyBehavior href={'https://www.notion.so/6e345d3e2be648559efcdd8582172165?v=123cd9db01c84a73b058857d93a90b8c'}> Add employees </Link></button>
             <a href="" className="flex items-center">
             <span className="self-center text-xs col-span-2	text-center px-5 font-bold whitespace-nowrap dark:text-white">*for employers only</span>
             </a>
