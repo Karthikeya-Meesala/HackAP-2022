@@ -19,7 +19,7 @@ const Post = ({markdown, post}: InferGetStaticPropsType<typeof getStaticProps>) 
 
             <Header></Header>
 
-            <div className="min-h-screen pt-28 pb-24">
+            <div className="min-h-screen pt-28 pb-24 px-8 lg:px-0 ">
                 <main className="max-w-5xl mx-auto relative">
                     <div className="flex items-center justify-center">
                         <article className="prose">
