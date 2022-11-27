@@ -1,4 +1,4 @@
-# HackAP 2022 - Employee Directory
+# HackAP 2022 - Project - Employee Directory
 
 **HackAP 2022** is hosted by Andhra University's incubation centre. Under the employee engagement theme, I've built a web platform where you can create employees' profiles and add their work history on the platform which is made publicly available.
 
