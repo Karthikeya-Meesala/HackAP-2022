@@ -4,7 +4,7 @@ const Footer = () => {
     return (
 
   
-<footer className="p-4 sm:p-6 bg-blue-600 dark:bg-gray-400">
+<footer className="p-4 sm:p-6 bg-blue-600">
     <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
             <a href="https://flowbite.com/" className="flex items-center">
@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                 <ul className="text-white dark:text-gray-400">
                     <li className="mb-4">
                         <a href="" className="hover:underline">About</a>
@@ -24,7 +24,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Follow us</h2>
                 <ul className="text-white dark:text-gray-400">
                     <li className="mb-4">
                         <a href="" className="hover:underline ">Github</a>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Legal</h2>
                 <ul className="text-white dark:text-gray-400">
                     <li className="mb-4">
                         <a href="#" className="hover:underline">Privacy Policy</a>
