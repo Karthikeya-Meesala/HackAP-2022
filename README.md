@@ -1,3 +1,11 @@
+## HACKAP 2022 - Project - Employee Directory Platform
+
+#Hackathon Presentation [link](https://docs.google.com/presentation/d/1Xl8vn9_uChiv1Umvqjj2p-G01bSD0ooFFa30NsCiFb4/edit#slide=id.g19a57639667_0_19).
+
+#Demo [link](https://hackap-2022.vercel.app/#)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
